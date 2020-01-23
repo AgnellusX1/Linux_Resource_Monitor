@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Oreo.java.Fxml.Scene4">
+   <children>
+      <Button fx:id="back2" layoutX="500.0" layoutY="336.0" mnemonicParsing="false" onAction="#onMenu" prefHeight="50.0" prefWidth="92.0" text="BACK" textFill="#4b09da" />
+      <LineChart fx:id="cpugraph" layoutX="1.0" layoutY="2.0" prefHeight="356.0" prefWidth="600.0" title="Memory Usage">
+        <xAxis>
+          <CategoryAxis fx:id="time" label="Time" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="usage" label="Usage" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="kill2" layoutX="8.0" layoutY="336.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="92.0" text="KILL" textFill="#3f11d7" />
+      <Button fx:id="refresh" layoutX="285.0" layoutY="349.0" mnemonicParsing="false" onAction="#onRefresh" text="Refresh" />
+   </children>
+</AnchorPane>

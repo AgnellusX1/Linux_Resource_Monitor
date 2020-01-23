@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java.Controllers.Scene6">
+   <children>
+      <Label fx:id="disk" layoutX="43.0" layoutY="40.0" prefHeight="69.0" prefWidth="405.0" text="DISK USAGE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="back4" layoutX="53.0" layoutY="163.0" mnemonicParsing="false" onAction="#onMenu" prefHeight="50.0" prefWidth="100.0" text="BACK" textFill="#4006c6" />
+   </children>
+</AnchorPane>
