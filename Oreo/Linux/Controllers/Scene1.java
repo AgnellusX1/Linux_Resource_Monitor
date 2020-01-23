@@ -1,4 +1,4 @@
-package java.Controllers;
+package Linux.Controllers;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,7 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import java.Main;
+import Linux.Main;
 
 import java.io.IOException;
 
@@ -64,7 +64,7 @@ public class Scene1 {
     @FXML
     void onStart(ActionEvent event) {
         try {
-            root = FXMLLoader.load(getClass().getResource("/java/Fxml/Scene2.fxml"));
+            root = FXMLLoader.load(getClass().getResource("/Linux/Fxml/Scene2.fxml"));
             Stage stage2 = Main.stage;
             stage2.setScene(new Scene(root));
             stage2.setResizable(false);

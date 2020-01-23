@@ -1,6 +1,6 @@
-package java.Controllers;
+package Linux.Controllers;
+import Linux.Main;
 
-import java.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,13 +12,17 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Scene7 {
+
+public class Scene3 {
 
     @FXML
-    private Label enabled;
+    private Label cpu;
 
     @FXML
-    private Button back5;
+    private Button back1;
+
+    @FXML
+    private Button kil1;
 
     @FXML
     Parent root;
@@ -26,7 +30,7 @@ public class Scene7 {
     @FXML
     void onMenu(ActionEvent event) {
 
-        try {
+      try {
             root = FXMLLoader.load(getClass().getResource("/Oreo/java/Fxml/Scene2.fxml"));
             Stage stage2 = Main.stage;
             stage2.setScene(new Scene(root));
@@ -37,4 +41,5 @@ public class Scene7 {
         }
 
     }
+
 }

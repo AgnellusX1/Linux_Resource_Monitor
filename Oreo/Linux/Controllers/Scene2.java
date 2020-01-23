@@ -1,6 +1,6 @@
-package java.Controllers;
+package Linux.Controllers;
 
-import java.Main;
+import Linux.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -65,7 +65,7 @@ public class Scene2 {
     void onMem(ActionEvent event) {
 
             try {
-                root = FXMLLoader.load(getClass().getResource("/java/Fxml/Scene4.fxml"));
+                root = FXMLLoader.load(getClass().getResource("/Linux/Fxml/Scene4.fxml"));
                 Stage stage2 =  Main.stage;
                 stage2.setScene(new Scene(root));
                 stage2.setResizable(false);
@@ -79,7 +79,7 @@ public class Scene2 {
     @FXML
     void onIn(ActionEvent event) {
         try {
-            root = FXMLLoader.load(getClass().getResource("/java/Fxml/Scene5.fxml"));
+            root = FXMLLoader.load(getClass().getResource("/Linux/Fxml/Scene5.fxml"));
             Stage stage2 =  Main.stage;
             stage2.setScene(new Scene(root));
             stage2.setResizable(false);

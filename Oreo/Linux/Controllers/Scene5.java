@@ -1,6 +1,6 @@
-package java.Controllers;
+package Linux.Controllers;
 
-import java.Main;
+import Linux.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,13 +12,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Scene9 {
+public class Scene5 {
 
     @FXML
-    private Label frequently;
+    private Label internet;
 
     @FXML
-    private Button back7;
+    private Button back3;
+
 
     @FXML
     Parent root;
@@ -38,3 +39,4 @@ public class Scene9 {
 
     }
 }
+

@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="Scene1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java.Controllers.Scene1">
+<AnchorPane fx:id="Scene1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Linux.Controllers.Scene1">
    <children>
       <Label fx:id="label" alignment="CENTER" layoutX="10.0" layoutY="31.0" prefHeight="44.0" prefWidth="581.0" text="THE LINUX SYSTEM MONITOR" textOverrun="CENTER_ELLIPSIS">
          <font>

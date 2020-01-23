@@ -1,24 +1,24 @@
-package java.Controllers;
+package Linux.Controllers;
 
-import java.Main;
+import Linux.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Scene8 {
+public class Scene9 {
 
     @FXML
-    private AnchorPane back6;
+    private Label frequently;
 
     @FXML
-    private Label recently;
+    private Button back7;
 
     @FXML
     Parent root;

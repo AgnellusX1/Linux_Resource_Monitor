@@ -1,4 +1,4 @@
-package java;
+package Linux;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         stage = primaryStage;
-        root = FXMLLoader.load(getClass().getResource("/java/Fxml/Scene1.fxml"));
+        root = FXMLLoader.load(getClass().getResource("/Linux/Fxml/Scene1.fxml"));
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);
         primaryStage.show();

@@ -1,5 +1,5 @@
-package java.Controllers;
-import java.Main;
+package Linux.Controllers;
+import Linux.Main;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
